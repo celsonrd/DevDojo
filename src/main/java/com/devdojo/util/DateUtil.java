@@ -10,7 +10,7 @@ public class DateUtil {
 	
 	public String formatLocalDAteTimeToDatabaseStyle(LocalDateTime localDateTime) {
 		
-		return DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").format(localDateTime);
+		return DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss:ms").format(localDateTime);
 	}
 	
 
